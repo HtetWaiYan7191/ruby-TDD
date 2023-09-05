@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>School Library</b></h1>
+  <h1><b>Ruby Test Driven Development</b></h1>
 
 </div>
 
@@ -10,8 +10,8 @@
 
 ## 📗 Table of Contents
 
-- [📖 School Library ](#-school-library-)
-  - [🛠 Built With ](#-built-with-)
+- [📖 Ruby-TDD ](#-ruby-tdd-)
+  - [🛠 Built With Ruby](#-built-with-ruby)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
@@ -27,17 +27,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 Ruby-TDD <a name="about-project"></a>
 
-**School Library** is an app to manage your library
+**Ruby-TDD** ruby project for test driven development
 
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">Ruby</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
 </details>
 
@@ -92,10 +91,6 @@ Install this project with:
 it will install the required gemfile for running the project
 
 <!-- ### Usage -->
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
