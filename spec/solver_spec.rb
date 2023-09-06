@@ -22,7 +22,7 @@ describe Solver do
 
     context "testing reverse string method" do
         it "should return the reverse string" do
-            expect(Solver.new.reverse('abc').to eq 'cba')
+            expect(Solver.new.reverse('abc')).to eq 'cba'
         end
     end 
 end
