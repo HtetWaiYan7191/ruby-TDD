@@ -25,4 +25,10 @@ describe Solver do
             expect(Solver.new.reverse('abc')).to eq 'cba'
         end
     end 
+
+    context "testing fizz buzz method" do
+        it "should return 'fizzbuzz' when input is divisible by 3 and 5" do
+            expect(Solver.new.fizzbuzz(15)).to eq "fizzbuzz"
+        end
+    end
 end
