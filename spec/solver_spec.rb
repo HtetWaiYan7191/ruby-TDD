@@ -38,5 +38,9 @@ describe Solver do
         it "should return 'buzz' when input is divisible only by 5" do
             expect(Solver.new.fizzbuzz(5)).to eq "buzz"
         end
+
+        it "should return the number when the input is not divisible by 3,5 " do
+            expect(Solver.new.fizzbuzz(2)).to eq '2'
+        end
     end
 end
