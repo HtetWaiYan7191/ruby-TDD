@@ -18,7 +18,11 @@ describe Solver do
         it "The factorial method will return the factorial value of a number greater than 0" do
             expect(Solver.new.factorial(4)).to eq 24
         end
-
-
     end
+
+    context "testing reverse string method" do
+        it "should return the reverse string" do
+            expect(Solver.new.reverse('abc').to eq 'cba')
+        end
+    end 
 end
