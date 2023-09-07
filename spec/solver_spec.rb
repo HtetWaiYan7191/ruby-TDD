@@ -42,6 +42,4 @@ describe Solver do
       expect(Solver.new.fizzbuzz(2)).to eq '2'
     end
   end
-
-
 end
