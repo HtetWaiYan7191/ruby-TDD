@@ -24,4 +24,24 @@ describe Solver do
       expect(Solver.new.reverse('abc')).to eq 'cba'
     end
   end
+
+  context 'testing fizz buzz method' do
+    it "should return 'fizzbuzz' when input is divisible by 3 and 5" do
+      expect(Solver.new.fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+
+    it "should return 'fizz' when input is divisible only by 3" do
+      expect(Solver.new.fizzbuzz(3)).to eq 'fizz'
+    end
+
+    it "should return 'buzz' when input is divisible only by 5" do
+      expect(Solver.new.fizzbuzz(5)).to eq 'buzz'
+    end
+
+    it 'should return the number when the input is not divisible by 3,5 ' do
+      expect(Solver.new.fizzbuzz(2)).to eq '2'
+    end
+  end
+
+
 end
